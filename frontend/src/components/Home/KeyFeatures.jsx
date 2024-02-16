@@ -1,5 +1,5 @@
 import React from 'react';
-import FeatureCardData from '../../dummyData';
+import {FeatureCardData} from '../../dummyData';
 
 const KeyFeatures = () => {
   return (
@@ -35,6 +35,8 @@ const KeyFeatures = () => {
         </div>
       </div>
     </section>
+    
+    
   );
 };
 

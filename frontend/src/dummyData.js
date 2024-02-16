@@ -283,4 +283,195 @@ const FeatureCardData  = [
   ];
 
   
-export default FeatureCardData;
+
+  
+
+
+const integrationData = [
+    {
+      id: 1,
+      imageSrc: 'images/icons/facebook-colored.svg',
+      title: '피아노랑 프로그램 교환 원합니다!!',
+      category: '피아노',
+      description: '피아노는 8살때부터 연주했구요 현재는 음악대학교에 재학중입니다.',
+    },
+    {
+      id: 2,
+      imageSrc: 'images/icons/twitter-colored.svg',
+      title: '자바스크립트 선생님 구합니다!!',
+      category: '기타',
+      description: '현재 학원에서 기타 강사로 활동하고 있습니다 프로그래밍에 관심이 생겨서 자바스크립트 선생님 구합니다',
+    },
+    {
+      id: 3,
+      imageSrc: 'images/icons/Google-colored.svg',
+      title: '야구 배우고싶어요',
+      category: '프로그래밍',
+      description: '프리랜서 프로그래머로 활동중입니다 야구 선수분이시면 좋겠구요 현직 프로시면 좋겠습니다',
+    },
+    // 나머지 데이터 항목들...
+    {
+      id: 18,
+      imageSrc: 'images/icons/youtube-colored.svg',
+      title: '작문이랑 기타연주 교환 원합니다',
+      category: '작문',
+      description: '국어국문과 나왔구요 ',
+    },
+    {
+      id: 19,
+      imageSrc: 'images/icons/Pinterest-colored.svg',
+      title: '작곡이랑 영어회화 교환합니다!!',
+      category: '작곡',
+      description: '작곡 천재입니다 영어를 배우고 싶으니 연락주세요',
+    },
+    {
+      id: 20,
+      imageSrc: 'images/icons/Webflow-colored.svg',
+      title: '중국어랑 프랑스어 교환 요청합니다',
+      category: '중국어',
+      description: '중국에서 오래 살았습니다 프랑스에서 오래 사신분 구합니다',
+    },
+    {
+        id: 21,
+        imageSrc: 'images/icons/facebook-colored.svg',
+        title: '프로그래밍 멘토 찾습니다',
+        category: '프로그래밍',
+        description: '프로그래밍 분야에서 경험이 풍부한 멘토를 찾고 있습니다. 협업하며 성장하고 싶어요. 연락주세요!',
+      },
+      {
+        id: 22,
+        imageSrc: 'images/icons/twitter-colored.svg',
+        title: '요가와 체력 단련에 관심이 많아요',
+        category: '헬스',
+        description: '요가와 체력 단련에 관심이 많은데 함께 즐길 친구를 찾고 있어요. 함께 운동하며 즐거운 시간 보내요!',
+      },
+      {
+        id: 23,
+        imageSrc: 'images/icons/Google-colored.svg',
+        title: '영상 편집과 음악 제작을 공유하고 싶어요',
+        category: '예술',
+        description: '영상 편집과 음악 제작에 흥미가 있어 함께 공유하고 배울 수 있는 친구를 찾습니다. 연락주세요!',
+      },
+      {
+        id: 24,
+        imageSrc: 'images/icons/Pinterest-colored.svg',
+        title: '여행과 사진을 즐기는 친구 모집합니다',
+        category: '여행',
+        description: '세계 각국을 여행하며 멋진 사진을 찍고 싶어요. 같이 여행하고 사진을 공유할 친구를 찾습니다!',
+      },
+      {
+        id: 25,
+        imageSrc: 'images/icons/Webflow-colored.svg',
+        title: '디자인과 코딩에 관심이 많아요',
+        category: '디자인',
+        description: '웹 디자인과 프론트엔드 개발에 흥미가 있어 함께 공부하고 싶은 친구를 찾습니다. 함께 성장합시다!',
+      },
+      {
+        id: 26,
+        imageSrc: 'images/icons/instagram-colored.svg',
+        title: '피아노와 노래 부를 친구 찾아요',
+        category: '음악',
+        description: '피아노 연주와 함께 노래를 부를 수 있는 친구를 찾고 있습니다. 음악을 즐기며 즐거운 시간 보내요!',
+      },
+      {
+        id: 27,
+        imageSrc: 'images/icons/linkedin-colored.svg',
+        title: '책과 글쓰기를 좋아하는 친구 찾아요',
+        category: '문학',
+        description: '다양한 책을 읽고 글쓰기에 관심이 많아요. 책과 글에 대해 이야기 나눌 친구를 찾습니다!',
+      },
+      {
+        id: 28,
+        imageSrc: 'images/icons/spotify-colored.svg',
+        title: '음악 스트리밍을 공유할 친구를 찾습니다',
+        category: '음악',
+        description: '좋아하는 음악을 공유하고 함께 음악 스트리밍을 즐길 친구를 찾습니다. 함께 음악 여행 떠나요!',
+      },
+      {
+        id: 29,
+        imageSrc: 'images/icons/slack-colored.svg',
+        title: '프로젝트 협업 파트너를 찾습니다',
+        category: '프로그래밍',
+        description: '새로운 프로젝트에 참여하고 협업할 파트너를 찾습니다. 프로그래밍에 관심 있는 친구 연락주세요!',
+      },
+      {
+        id: 30,
+        imageSrc: 'images/icons/github-colored.svg',
+        title: '오픈소스 프로젝트에 기여하고 싶어요',
+        category: '프로그래밍',
+        description: '오픈소스 프로젝트에 기여하고 싶어하는데 함께 참여할 동료를 찾습니다. 열정적인 친구 환영해요!',
+      },
+      {
+        id: 31,
+        imageSrc: 'images/icons/codepen-colored.svg',
+        title: '웹 개발과 디자인을 함께 공부할 친구 찾아요',
+        category: '프론트엔드',
+        description: '웹 개발과 디자인에 관심이 있는데 함께 공부하고 스킬을 향상시킬 친구를 찾습니다. 함께 열심히 해봐요!',
+      },
+      {
+        id: 32,
+        imageSrc: 'images/icons/dribbble-colored.svg',
+        title: '디자인 피드백을 주고 받을 친구를 찾아요',
+        category: '디자인',
+        description: '디자인 작업물에 대한 솔직한 피드백을 주고 받을 친구를 찾습니다. 서로 발전하며 성장해요!',
+      },
+      {
+        id: 33,
+        imageSrc: 'images/icons/twitch-colored.svg',
+        title: '게임과 즐거운 시간을 보낼 친구를 찾아요',
+        category: '게임',
+        description: '다양한 게임을 즐기며 즐거운 시간을 보낼 친구를 찾습니다. 같이 게임하며 화끈한 대화 나눠봐요!',
+      },
+      {
+        id: 34,
+        imageSrc: 'images/icons/reddit-colored.svg',
+        title: '다양한 취미를 공유할 친구를 찾습니다',
+        category: '취미',
+        description: '다양한 취미를 가지고 있는데 함께 취미를 공유하고 즐거운 시간을 보낼 친구를 찾습니다. 함께 활동해봐요!',
+      },
+      {
+        id: 35,
+        imageSrc: 'images/icons/stack-overflow-colored.svg',
+        title: '코딩 문제 해결 도우미를 찾습니다',
+        category: '프로그래밍',
+        description: '코딩 중에 마주치는 문제를 해결하고 싶어하는데 함께 도움 주고 받을 친구를 찾습니다. 협업해봐요!',
+      },
+      {
+        id: 36,
+        imageSrc: 'images/icons/discord-colored.svg',
+        title: '게임 커뮤니티에 참여할 멤버를 찾아요',
+        category: '게임',
+        description: '다양한 게임 커뮤니티에 함께 참여할 멤버를 찾습니다. 즐거운 게임 세계로 초대합니다!',
+      },
+      {
+        id: 37,
+        imageSrc: 'images/icons/wordpress-colored.svg',
+        title: '웹사이트 제작에 관심이 있는 친구 찾아요',
+        category: '프론트엔드',
+        description: '웹사이트 제작에 흥미를 가지고 있는데 함께 공부하고 실력을 키울 친구를 찾습니다. 함께 열심히 해보아요!',
+      },
+      {
+        id: 38,
+        imageSrc: 'images/icons/whatsapp-colored.svg',
+        title: '언어 교환 파트너를 찾습니다',
+        category: '언어',
+        description: '새로운 언어를 배우고 언어 교환을 할 친구를 찾습니다. 서로의 언어 실력을 향상시켜요!',
+      },
+      {
+        id: 39,
+        imageSrc: 'images/icons/snapchat-colored.svg',
+        title: '스냅챗으로 일상을 나눌 친구를 찾습니다',
+        category: '소통',
+        description: '스냅챗을 통해 일상을 나눌 친구를 찾습니다. 함께 소소한 일상을 공유하며 친구가 되어요!',
+      },
+      {
+        id: 40,
+        imageSrc: 'images/icons/youtube-colored.svg',
+        title: '언어 교환 파트너를 찾습니다',
+        category: '언어',
+        description: '다양한 언어를 배우고 싶어서 언어 교환 파트너를 찾고 있습니다. 함께 언어 공부하며 친구되어요!',
+      },
+  ];
+
+
+  export { integrationData, FeatureCardData };
