@@ -4,7 +4,7 @@ const SignUpForm = () => {
   return (
     <div className="row">
       {/* 왼쪽: 폼 요소 */}
-      <div className="min-h-[1200px] bg-white py-10 lg:col-6 lg:py-[114px]">
+      <div className="min-h-[1200px] bg-white py-10 lg:col-12 lg:py-[114px]">
         <div className="mx-auto w-full max-w-[750px]">
           <img className="mb-8" src="images/flower.svg" alt="" />
           <h1 className="mb-4">회원가입</h1>
