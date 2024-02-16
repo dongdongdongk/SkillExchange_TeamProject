@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Header = () => {
   return (
@@ -6,7 +6,7 @@ const Header = () => {
       <nav className="navbar container">
         {/* logo */}
         <div className="order-0">
-          <a href="index.html">
+          <a href="/">
             <img src="images/logo.svg" height="30" width="147" alt="logo" />
           </a>
         </div>
@@ -42,7 +42,7 @@ const Header = () => {
         >
           <li className="nav-item">
             <a href="" className="nav-link active">
-              Home
+              메인 페이지
             </a>
           </li>
           <li className="nav-item">
@@ -69,9 +69,7 @@ const Header = () => {
             <span className="nav-link inline-flex items-center">
               Pages
               <svg className="h-4 w-4 fill-current" viewBox="0 0 20 20">
-                <path
-                  d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
-                />
+                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
               </svg>
             </span>
             <ul className="nav-dropdown-list hidden group-hover:block lg:invisible lg:absolute lg:block lg:opacity-0 lg:group-hover:visible lg:group-hover:opacity-100">
@@ -118,14 +116,17 @@ const Header = () => {
             </a>
           </li>
           <li className="nav-item mt-3.5 lg:hidden">
-            <a className="btn btn-white btn-sm border-border" href="signin.html">
+            <a
+              className="btn btn-white btn-sm border-border"
+              href="signin.html"
+            >
               Sign Up Now
             </a>
           </li>
         </ul>
         <div className="order-1 ml-auto hidden items-center md:order-2 md:ml-0 lg:flex">
-          <a className="btn btn-white btn-sm" href="sign-up">
-            Sign Up Now
+          <a className="btn btn-white btn-sm font-bold" href="sign-in">
+            로그인
           </a>
         </div>
       </nav>

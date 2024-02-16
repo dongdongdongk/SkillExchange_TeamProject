@@ -14,8 +14,8 @@ const Banner = () => {
               A fully integrated suite of authentication & authorization products,
               Stytch’s platform removes the headache of.
             </p>
-            <a className="btn btn-white mt-8" href="#">
-              Download The Theme
+            <a className="btn btn-white mt-8 " href="#">
+              <p className='font-bold text-lg mt-1'>재능 등록하기</p>
             </a>
           </div>
           <div className="lg:col-6">

@@ -3,11 +3,11 @@ import {integrationData} from '../../dummyData';
 const IntegrationBox = ({ imageSrc, title, category, description }) => {
   return (
     <div className="integration-tab-item mb-8 md:col-6 lg:col-4" data-groups={`["${category}"]`}>
-      <div className="rounded-xl bg-white px-10 pb-8 pt-11 shadow-lg">
+      <div className="rounded-xl bg-white px-10 pb-8 pt-11 shadow-lg max-h-[350px] min-h-[350px]">
         <div className="integration-card-head flex items-center space-x-4">
           <img src={imageSrc} alt="" />
           <div>
-            <h4 className="h4">{title}</h4>
+            <h4 className="h5">{title}</h4>
             <span className="font-medium">카테고리 : {category}</span>
           </div>
         </div>
