@@ -124,7 +124,7 @@ const Header = () => {
           </li>
         </ul>
         <div className="order-1 ml-auto hidden items-center md:order-2 md:ml-0 lg:flex">
-          <a className="btn btn-white btn-sm" href="signin.html">
+          <a className="btn btn-white btn-sm" href="sign-up">
             Sign Up Now
           </a>
         </div>
