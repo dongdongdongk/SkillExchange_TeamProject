@@ -25,42 +25,69 @@ const SignUpForm = () => {
 
           <form action="#">
             <div className="form-group">
-              <label htmlFor="name" className="form-label">
-                Full Name
+              <label htmlFor="id" className="form-label">
+                아이디
               </label>
               <input
                 type="text"
-                id="name"
+                id="id"
                 className="form-control"
-                placeholder="Your Full Name"
+                placeholder="아이디를 입력해주세요"
               />
             </div>
             <div className="form-group mt-4">
               <label htmlFor="email" className="form-label">
-                Email Address
+                이메일
               </label>
               <input
                 type="email"
                 id="email"
                 className="form-control"
-                placeholder="Your Email Address"
+                placeholder="이메일을 입력해주세요"
               />
             </div>
+            {/* <div className="form-group mt-4">
+              <label className="form-label" htmlFor="gender">
+                성별
+              </label>
+              <select
+                name="gender"
+                id="gender"
+                className="form-select"
+                required
+              >
+                <option value="">성별</option>
+                <option value="investment plane">남성</option>
+                <option value="investment plane-2">여성</option>
+              </select>
+            </div> */}
             <div className="form-group mt-4">
               <label htmlFor="password" className="form-label">
-                Password
+                패스워드
               </label>
               <input
                 type="password"
                 id="password"
                 className="form-control"
-                placeholder="Your Password"
+                placeholder="비밀번호를 입력해주세요"
               />
             </div>
+            <div className="form-group mt-4">
+              <label htmlFor="passwordCheck" className="form-label">
+                패스워드 체크
+              </label>
+              <input
+                type="password"
+                id="passwordCheck"
+                className="form-control"
+                placeholder="비밀번호 체크"
+              />
+            </div>
+
             <input
               className="btn btn-primary mt-10 block w-full"
               type="submit"
-              value="Sign Up"
+              value="회원가입"
             />
           </form>
         </div>

@@ -9,8 +9,10 @@ const SignInPage = () => {
       <Header />
  
           <SignInForm />
+          
 
       <Footer />
+      
     </>
   );
 };

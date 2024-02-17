@@ -23,6 +23,7 @@
     "jshint": "^2.13.6",
     "jshint-stylish": "^2.2.1",
     "lottie-react": "^2.4.0",
+    "material-react-table": "^2.11.3",
     "postcss": "^8.4.23",
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.3.0",

@@ -41,31 +41,31 @@ const Header = () => {
           className="navbar-nav order-2 hidden w-full flex-[0_0_100%] lg:order-1 lg:flex lg:w-auto lg:flex-auto lg:justify-center lg:space-x-5"
         >
           <li className="nav-item">
-            <a href="" className="nav-link active">
-              메인 페이지
+            <a href="/" className="nav-link active">
+              메인페이지
             </a>
           </li>
           <li className="nav-item">
-            <a href="about.html" className="nav-link">
-              About
+            <a href="notice" className="nav-link">
+              공지사항
             </a>
           </li>
           <li className="nav-item">
             <a href="blog.html" className="nav-link">
-              Blog
+              재능등록
             </a>
           </li>
           <li className="nav-item">
             <a href="features.html" className="nav-link">
-              Features
+              자유게시판
             </a>
           </li>
           <li className="nav-item">
             <a href="how-it-works.html" className="nav-link">
-              How It Works
+              모집해요
             </a>
           </li>
-          <li className="nav-item nav-dropdown group relative">
+          {/* <li className="nav-item nav-dropdown group relative">
             <span className="nav-link inline-flex items-center">
               Pages
               <svg className="h-4 w-4 fill-current" viewBox="0 0 20 20">
@@ -109,10 +109,10 @@ const Header = () => {
                 </a>
               </li>
             </ul>
-          </li>
+          </li> */}
           <li className="nav-item">
             <a href="contact.html" className="nav-link">
-              Contact
+                자주 묻는 질문
             </a>
           </li>
           <li className="nav-item mt-3.5 lg:hidden">
@@ -125,7 +125,7 @@ const Header = () => {
           </li>
         </ul>
         <div className="order-1 ml-auto hidden items-center md:order-2 md:ml-0 lg:flex">
-          <a className="btn btn-white btn-sm font-bold" href="sign-in">
+          <a className="btn btn-primary btn-sm font-bold" href="sign-in">
             로그인
           </a>
         </div>

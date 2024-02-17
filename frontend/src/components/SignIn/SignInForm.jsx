@@ -88,7 +88,7 @@ const SignInForm = () => {
       <div className="container max-w-full">
         <div className="row">
           <div className="min-h-[980px] bg-white py-10 lg:col-6 lg:py-[114px]">
-            <div className="mx-auto w-full max-w-[480px]">
+            <div className="mx-auto w-full max-w-[650px]">
               <img className="mb-8" src="images/flower.svg" alt="" />
               <h1 className="mb-4">로그인</h1>
               <p>Donec sollicitudin molestie malesda sollitudin</p>
@@ -132,18 +132,14 @@ const SignInForm = () => {
                 <input
                   className="btn btn-primary mt-10 block w-full"
                   type="submit"
-                  value="Sign In"
+                  value="로그인"
                 />
                 <p className="mt-6 text-center">
-                  Can't{" "}
-                  <span className="text-dark" href="#">
-                    log in
-                  </span>
-                  ?
-                  <a className="text-dark" href="signup.html">
-                    Sign up
-                  </a>{" "}
-                  to create an account
+                아직 회원이 아니신가요?{" "}    
+                  <a className="text-dark" href="sign-up">
+                    계정을 생성하세요!
+                  </a>
+                  
                 </p>
               </form>
             </div>
